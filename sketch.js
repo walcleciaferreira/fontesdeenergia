@@ -42,7 +42,6 @@ let final;
 let imgmenu, imgprogramador, imgvoltar, imgcerto, imgerrado, imgintro, imgraio, imghidre, imgsolar, imgeolica, imggeo, imgnuclear, imgpet, imgcarvao, imggas, imgmare, imgbio, imgpont, imgfinal;
 function preload() {
   imgmenu = loadImage('menu.jpg');
-  imgprogramador = loadImage('programadora.jpg');
   imgvoltar = loadImage('voltar.png');
   imgcerto = loadImage('certo.png');
   imgerrado = loadImage('errado.png')
@@ -839,7 +838,7 @@ function draw() {
    text("Estudante de Ciências e Tecnologia na", 340, 210)
    text('Universidade Federal do Rio Grande', 333, 235)
    text('do Norte (UFRN).', 260, 260)
-   image(imgprogramador, 20, 110, 150, 180)
+  // image(imgprogramador, 20, 110, 150, 180)
    
   }
  }
